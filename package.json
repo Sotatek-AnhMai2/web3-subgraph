@@ -7,7 +7,8 @@
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ baoanh/subpgraph-web3",
     "create-local": "graph create --node http://localhost:8020/ baoanh/subpgraph-web3",
     "remove-local": "graph remove --node http://localhost:8020/ baoanh/subpgraph-web3",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 baoanh/subpgraph-web3"
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 baoanh/subpgraph-web3",
+    "deploy-rinkeby": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sotatek-anhmai2/web3-learning --access-token c113a41584734a849d92ee89f627980d"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.28.1",
